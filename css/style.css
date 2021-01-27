@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  margin: 0;
+  padding: 10px;
+}
+.wrapper {
+  background-color: white;
+  width: 1200px;
+  height: 1446px;
+  margin: 0 auto;
+  padding: 70px 40px 40px 40px;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 600px;
+  margin: 0 auto;
+}
+
+nav li {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  height: 11px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.mainflex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 100px 0 0 0;
+  padding: 0;
+}
+
+.item {
+  width: 420px;
+  height: 480px;
+  box-sizing: border-box;
+  margin: 0 0 100px 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.blue {
+  color: #03a9f4;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  padding: 22px 34px 22px 34px;
+  background-color: white;
+}
